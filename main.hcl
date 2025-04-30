@@ -1,8 +1,8 @@
 resource "lab" "main" {
-  title = "My First NXT Lab"
+  title = "My Very First NXT Lab"
   description = <<-EOF
-  This is my test lab.
-  We will practice with this lab. Test if this works.
+  This is our second test on this lab.
+  Let's see if this works.
   EOF
 
   layout "single_column" {
