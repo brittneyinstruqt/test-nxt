@@ -1,5 +1,5 @@
 resource "lab" "main" {
-  title = "My Very First NXT Lab 1"
+  title = "My Very First NXT Lab"
   description = <<-EOF
   This is our second test on this lab.
   Let's see if this works.
