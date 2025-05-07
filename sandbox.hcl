@@ -1,5 +1,5 @@
 resource "network" "main" {
-  subnet = "10.0.200.0/16"
+  subnet = "10.0.0.0/16"
 }
 resource "container" "webserver" {
     image {
