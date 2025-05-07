@@ -7,6 +7,7 @@ resource "container" "webserver" {
     }
     port {
         local = 80
+        host = 80
     }
     network {
         id = resource.network.main.meta.id
