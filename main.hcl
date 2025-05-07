@@ -12,6 +12,7 @@ resource "lab" "main" {
       panel = "instructions"
     }
   }
+  
   layout "two_columns" {
     reference = resource.layout.two_panels
     default = true
