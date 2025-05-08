@@ -41,8 +41,13 @@ resource "lab" "main" {
       page "first_page" {
         reference = resource.page.first
       }
+      
       page "quiz" {
         reference = resource.page.quiz
+      }
+
+      page "task" {
+        reference = resource.page.task
       }
     }
   }
