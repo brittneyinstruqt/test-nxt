@@ -21,7 +21,14 @@ resource "lab" "main" {
       title = "Webserver"
       panel = "left"
       target = resource.service.webserver
-  }
+    }
+
+    tab "terminal" {
+      title = "Terminal"
+      panel = "left"
+      target = resource.terminal.shell
+    }
+
     instructions {
       panel = "right"
     }
